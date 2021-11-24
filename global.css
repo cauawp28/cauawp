@@ -1,0 +1,134 @@
+/*RESET*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+}
+
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.section {
+  padding: 144px 80px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*====  VARIABLES ============================ */
+:root {
+  --header-height: 11.25rem;
+
+  /* colors */
+  --hue: 316;
+  /* HSL color mode */
+  --base-color: hsl(var(--hue) 100% 46%);
+  --base-color-second: hsl(var(--hue) 82% 63%);
+  --base-color-alt: hsl(var(--hue) 100% 33%);
+  --title-color: hsl(var(--hue) 100% 46%);
+  --subtitle-color: hsl(213 48% 9%);
+  --alternative-button-color: hsl(213 48% 9%);
+  --text-color: hsl(0 0% 46%);
+  --text-color-light: hsl(0 0% 98%);
+  --body-color: hsl(0 0% 98%);
+  /*FONT*/
+  --title-font: 'Rubik', sans-serif;
+  --body-font: 'Rubik', sans-serif;
+}
